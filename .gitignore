@@ -1,0 +1,22 @@
+# Credenciais e segredos reais — nunca versionar
+.env
+.env.*
+!.env.example
+config/aws_credentials.json
+
+# Runtime do Airflow gerado localmente
+logs/
+plugins/__pycache__/
+airflow.cfg
+airflow.db
+standalone_admin_password.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# SO / editores
+.DS_Store
+.idea/
+.vscode/

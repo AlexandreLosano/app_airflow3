@@ -1,0 +1,10 @@
+# Providers/pacotes Python adicionais instalados na imagem customizada.
+# Fixe sempre uma versão exata para builds reprodutíveis. Exemplos:
+# apache-airflow-providers-postgres==6.1.1
+# apache-airflow-providers-http==5.0.0
+
+# DAG export_tcg_pokemon_to_s3: le o Postgres do app_tcg-pokemon e sobe Parquet no S3.
+psycopg2-binary==2.9.10
+pandas==2.2.3
+pyarrow==18.1.0
+boto3==1.35.36
